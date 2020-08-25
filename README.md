@@ -10,4 +10,4 @@ Master thesis 2020
 
 Completed? | Completion date | Task
 -----|-----|-----
-- [ ] | - | This
+[ ] | - | This
