@@ -11,3 +11,5 @@ Master thesis 2020
 Completed? | Completion date | Task
 -----|-----|-----
 [ ] | - | This
+[X] | 20/04/2020 | Done
+[ ] | - | Thisds sgs
