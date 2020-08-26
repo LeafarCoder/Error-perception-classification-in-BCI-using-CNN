@@ -3,8 +3,8 @@ Master thesis 2020
 
 # Index
 - [TO DO](#TO-DO)
-  -[Writing](#writing)
-  -[Code](#code)
+  - [Writing](#writing)
+  - [Code](#code)
 
 ---
 
