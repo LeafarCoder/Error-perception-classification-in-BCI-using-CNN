@@ -1,25 +1,29 @@
 # BCI-Feedback-Classification-using-CNN
 Master thesis 2020
 
+
 # Index
-- [TO DO](#TO-DO)
-  - [Writing](#writing)
-  - [Code](#code)
+- [Overview](#overview)
+  - [Pre-processing](#pre-processing)
+  - [Model training](#model-training)
+- [Consult Results in Comet]
+- [Reproduce results](#)
+- [License](#license)
 
----
+# Overview
 
-# TO DO
+## Pre-processing
 
-## Writing
+## Model training
 
-Completion date | Task
----- | ----
-_ | Re-write Introduction
-_ | Write in thesis the connection between Liu et al's introduction of Batch normalization in P300 and my try of transfering that technique to ErrP.
 
-## Code
 
-Completion date | Task
----- | ----
-_ | Check if error still happens when running model training using PyTorch
-_ | Organize Thesis Readme with the goal of presenting it as part of the final product of my thesis (organized, accessible, open-source code)
+# License
+
+Code under ...?... license.
+
+You are free to use and modify the code present in this Github repository given that proper reference is made:
+> R.   Correia,   “BCI   Feedback   Classification   using   CNN,”   2020.   [Online].   Available:https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN39
+
+
+
