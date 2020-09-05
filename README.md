@@ -81,27 +81,26 @@ In *Data inspection*, the user can verify the quality of the processed dataset b
 This section uses [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning) as the Machine Learning library and [Comet ML](https://www.comet.ml/) to visualize the results of the trained model.
 
 1. Generate a **Comet experiment**
-  * Associate a Comet API key to the current project and name the current experiment (optional)
-    * The Comet Api Key can be easily accessed after signing up to [Comet](https://www.comet.ml/site/) with Github or mail address. Project and Workspace are optional but help organize which experiments belong to which modeling projects.
-  * The API key (together with the project name and workspace name) are loaded from a file present in the root directory of the Drive. If none is present run the code which is commented in the previous cell after editing the necessary fields
-  * A link to the Live Comet experiment will be provided after cell run
-  * While executing *trainer.fit(model_name)* in the **Train** section, head to the Comet UI in the browser to visualize the training: metrics, parameters, code, system metrics, and more, all in real time.
+    * Associate a Comet API key to the current project and name the current experiment (optional)
+      * The Comet Api Key can be easily accessed after signing up to [Comet](https://www.comet.ml/site/) with Github or mail address. Project and Workspace are optional but help organize which experiments belong to which modeling projects.
+    * The API key (together with the project name and workspace name) are loaded from a file present in the root directory of the Drive. If none is present run the code which is commented in the previous cell after editing the necessary fields
+    * A link to the Live Comet experiment will be provided after cell run
+    * While executing *trainer.fit(model_name)* in the **Train** section, head to the Comet UI in the browser to visualize the training: metrics, parameters, code, system metrics, and more, all in real time.
 2. Define **hyperparameters**
-  * Besides the basic hyperparameters, more can be addded.
-  * These are passed to the Comet Logger.
+    * Besides the basic hyperparameters, more can be addded.
+    * These are passed to the Comet Logger.
 3. Download **dataset**
-  * After running cell, choose the appropriate file and the dataset will be uploaded.
+    * After running cell, choose the appropriate file and the dataset will be uploaded.
 4. Define **Model**
-  * The model architecture is defined in the class at the **Define Model** section.
-  * It uses the **LightningModule** from [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning) to abstract and separate the Research/Science component from the Engineering component.
-  * Layers (convolution, max pooling, drop-outs, ...) are defined under the Model class constructer (*\_\_init\_\_*) and its feeding pipeline is defined in the *forward* function.
-  * Download and split dataset
-  * DataLoaders...
-  * Oprimizer and Scheduler
-  *
-
-6. Terminate Experience
-  * In a Jupyter or Colab notebook, Experiences are ended by running *comet_logger.experiment.end()*.
+    * The model architecture is defined in the class at the **Define Model** section.
+    * It uses the **LightningModule** from [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning) to abstract and separate the Research/Science component from the Engineering component.
+    * Layers (convolution, max pooling, drop-outs, ...) are defined under the Model class constructer (*\_\_init\_\_*) and its feeding pipeline is defined in the *forward* function.
+    * Download and split dataset
+    * DataLoaders...
+    * Oprimizer and Scheduler
+    *
+5. Terminate Experience
+    * In a Jupyter or Colab notebook, Experiences are ended by running *comet_logger.experiment.end()*.
 
 ---
 
