@@ -4,21 +4,19 @@ Master thesis by Rafael Correia (2020)
 
 # Index
 - [Overview](#overview)
-  - [Pre-processing](#pre-processing)
-  - [Model training](#model-training)
+
 - [Run experiments](#run-experiments)
   - [Setup](#setup)
-- [Consult Results in Comet]
-- [Reproduce results](#)
+  - [Process dataset](#process-dataset)
+  - [Deep Learning Model](#deep-learning-model)
+- [Consult Results in Comet](#)
 - [License](#license)
 - [BibTeX](#bibtex)
 
 ---
 # Overview
 
-## Pre-processing
-
-## Model training
+...
 
 
 
@@ -106,18 +104,12 @@ This section uses [PyTorch Lightning](https://github.com/PyTorchLightning/pytorc
   * In a Jupyter or Colab notebook, Experiences are ended by running *comet_logger.experiment.end()*.
 
 ---
-# License
 
-
-
-You are free to use and modify the code present in this Github repository given that proper reference is made:
-> R.   Correia,   “BCI   Feedback   Classification   using   CNN,”   2020.   [Online].   Available:https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN39
-
-## Licence
+# Licence
 
 Repository under MIT license.
 
-## BibTeX
+# BibTeX
 If you want to cite the repository feel free to use this:
 
 ```bibtex
