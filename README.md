@@ -64,17 +64,46 @@ Here, two options are available, depending on how the user defines the variable 
 There are several processing steps that can be aplied to the dataset:
 - Raw data conversion
   - Raw data is converted from Comma Separated Value files (.csv) files into Pickle files (.p)
+  
 - Pre-process data
   - Bandpass filter
   - Channel selection
+  
 - Epoch data
   - Data is cropped to a specific time window
+  
 - Balance dataset
   - Unbalanced groups in the dataset are balanced to avoid bias during training
   
 All the data processing pipeline is done step by step, recording the output of one step and using the stored data as input to the next step. This way, if the user wants to change some parameter in the middle of the pipeline, there is no need to run all the processes again which might take some time.
 
 In *Data inspection*, the user can verify the quality of the processed dataset before continuing with model training in the next section.
+
+### Data structure
+
+All files are stored as Pickle files with the following datastructures and types:
+
+The data is stored as *numpy.ndarray* with the following structure:
+
+* epoched_data:
+  * Type: *numpy.ndarray*
+  * Dimensions: \[Trial, Channel, Time sample\]
+
+* epoched_data_labels:
+  * Type: *dict*
+  * Fields:
+    * 'fb_windowOnset' 0
+    * 'fb_windowOnsetSamples': 0
+    * 'fb_windowSize': 600
+    * 'fb_windowSizeSamples': 307
+
+* balanced_data
+
+* balanced_data_labels
+
+* filtered_metadata:
+* epoched_metadata:
+* balanced_metadata:
 
 ## Deep Learning Model
 
