@@ -87,22 +87,30 @@ The data is stored as *numpy.ndarray* with the following structure:
 
 * epoched_data:
   * Type: *numpy.ndarray*
-  * Dimensions: \[Trial, Channel, Time sample\]
+  * Dimensions: \[#Trial, #Channel, Time sample\]
 
 * epoched_data_labels:
-  * Type: *dict*
-  * Fields:
-    * 'fb_windowOnset' 0
-    * 'fb_windowOnsetSamples': 0
-    * 'fb_windowSize': 600
-    * 'fb_windowSizeSamples': 307
+  * Type: *numpy.ndarray*
+  * Dimensions: \[#Trial, 5\]
+  * Content per trial: \[*Subject*, *Session*, *Run*, *Trial*, *Label*\]
+    * Label: **0** (negative feedback; error) or **1** (positive feedback; no error)
 
-* balanced_data
+* balanced_data:
+  * Type: ...
 
 * balanced_data_labels
+  * Type: ...
 
 * filtered_metadata:
+
 * epoched_metadata:
+  * Type: *dict*
+  * Fields:
+    - *fb_windowOnset*: Start of epoching window after feedback in given number of miliseconds
+    - *fb_windowOnsetSamples*: Start of epoching window after feedback in given number of time samples
+    - *fb_windowSize*: Size of epoching window in given number of miliseconds
+    - *fb_windowSizeSamples*: Size of epoching window in given number of time samples
+    
 * balanced_metadata:
 
 ## Deep Learning Model
