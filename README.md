@@ -3,16 +3,15 @@ Master thesis by Rafael Correia (2020)
 
 
 # Index
-- [Overview](#overview)
-
-- [Run experiments](#run-experiments)
+* [Overview](#overview)
+* [Run experiments](#run-experiments)
   - [Setup](#setup)
   - [Process dataset](#process-dataset)
   - [Deep Learning Model](#deep-learning-model)
-- [CNN Models](#cnn-models)
-- [Results in Comet ML](#results-in-comet-ml)
-- [License](#license)
-- [BibTeX](#bibtex)
+* [CNN Models](#cnn-models)
+* [Results in Comet ML](#results-in-comet-ml)
+* [License](#license)
+* [BibTeX](#bibtex)
 
 ---
 # Overview
