@@ -9,7 +9,8 @@ Master thesis by Rafael Correia (2020)
   - [Setup](#setup)
   - [Process dataset](#process-dataset)
   - [Deep Learning Model](#deep-learning-model)
-- [Consult Results in Comet](#)
+- [CNN Models](#cnn-models)
+- [Results in Comet ML](#results-in-comet-ml)
 - [License](#license)
 - [BibTeX](#bibtex)
 
@@ -138,6 +139,19 @@ This section uses [PyTorch Lightning](https://github.com/PyTorchLightning/pytorc
     *
 5. Terminate Experience
     * In a Jupyter or Colab notebook, Experiences are ended by running *comet_logger.experiment.end()*.
+
+---
+
+# CNN Models
+
+add sections with each of the models (CCNN, CNN-R, BN3, ...) with:
+- Original paper
+- Original purpose (P300, ErrP)
+- How it was modified to ajust to the ErrP or database needs (ex: changing the kernel sizes and input sizes)
+- Add images of the models with my abstract approach
+
+# Results in Comet ML
+
 
 ---
 
