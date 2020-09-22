@@ -143,6 +143,8 @@ This section uses [PyTorch Lightning](https://github.com/PyTorchLightning/pytorc
 
 # CNN Models
 
+Access the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/tree/master/Models).
+
 add sections with each of the models (CCNN, CNN-R, BN3, ...) with:
 - Original paper
 - Original purpose (P300, ErrP)
