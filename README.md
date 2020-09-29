@@ -1,10 +1,6 @@
 # BCI-Feedback-Classification-using-CNN
 Master thesis by Rafael Correia (2020)
 
-![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/ErrP_to_improve_BCI.PNG)
-
-Taken from 
-
 # Index
 * [Overview](#overview)
 * [Run experiments](#run-experiments)
@@ -19,8 +15,17 @@ Taken from
 ---
 # Overview
 
-...
+The goal of this thesis is to classify the occurance of a feedback error, i.e., the perception of an error by a user interacting with a BCI (Brain-Computer Interface). The approach taken is to develop a Convolutional Neural Network (CNN) model.
 
+CNNs are widely known in the image classification domain but they can also be used to classify other types of information such as Electroencephalography (EEG) which can be regarded as 2D data, if the spatial position of each channel is considered, or 1D data otherwise in which case each channel of the EEG gives a time-series signal and is considered individually.
+
+The input given to the CNN for the classification is the EEG portion just after a feedback is presented. This can be the confirmation of a choice, the actual performance of an action or some other form of feedback. If the feedback is not the one expected (the performed action is different from the one intended, for example) then an Event-related potential (ERP) is elicited in the brain. Many different ERPs exist in response to different stimulus. The ERP specific for erroneous feedback is called Error Potential (ErrP) and happens around 300ms after the feedback is presented. Hence, givin the EEG signal just after the feedback to the CNN model, it is its task to classify it as presenting a ErrP or not.
+
+Having this information in real time, i.e., knowing if the user realized an error in the system, allows the correction of the action or the improvement of the model controling thr BCI as depicted in the image below.
+
+![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/ErrP_to_improve_BCI.PNG)
+
+Image taken from [here](https://www.frontiersin.org/articles/10.3389/fnins.2014.00208/full).
 
 
 ---
