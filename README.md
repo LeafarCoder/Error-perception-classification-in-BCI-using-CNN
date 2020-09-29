@@ -194,15 +194,28 @@ This section uses [PyTorch Lightning](https://github.com/PyTorchLightning/pytorc
 
 # CNN Models
 
-Access the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/tree/master/Models).
+Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/tree/master/Models).
 
 ## CCNN
 
+* Original [paper](https://pubmed.ncbi.nlm.nih.gov/20567055/)
+   * H. Cecotti and A. Gräser, “Convolutional neural networks for P300 detection with application to brain-computer interfaces,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 33, no. 3, pp. 433–445, **2011**.
+* Target ERP
+   * **P300**
+   
 ## CNN-R
 
-
+* Original [paper](http://journal.frontiersin.org/Article/10.3389/fncom.2015.00146/abstract)
+   * [1] M. Liu, W. Wu, Z. Gu, Z. Yu, F. F. Qi, and Y. Li, “Deep learning based on Batch Normalization for P300 signal detection,” Neurocomputing, vol. 275, pp. 288–297, **2017**.
+* Target ERP
+   **P300**
+   
 ## BN3
 
+* Original [paper](https://doi.org/10.1016/j.neucom.2017.08.039)
+   * M. Liu, W. Wu, Z. Gu, Z. Yu, F. F. Qi, and Y. Li, “Deep learning based on Batch Normalization for P300 signal detection,” Neurocomputing, vol. 275, pp. 288–297, **2017**.
+* Target ERP
+   * **P300**
 
 
 add sections with each of the models (CCNN, CNN-R, BN3, ...) with:
