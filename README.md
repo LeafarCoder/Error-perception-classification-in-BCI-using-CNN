@@ -1,4 +1,4 @@
-# BCI-Feedback-Classification-using-CNN
+# BCI Feedback Classification using CNN
 
 Master thesis by Rafael Correia (2020)
 
