@@ -1,5 +1,14 @@
 # BCI-Feedback-Classification-using-CNN
+
 Master thesis by Rafael Correia (2020)
+
+Contact me by email: [jose.r.c.correia@tecnico.ulisboa.pt](jose.r.c.correia@tecnico.ulisboa.pt)
+
+More about me:
+* [LinkedIn](https://www.linkedin.com/in/joserafaelcorreia/)
+* [Sourcerer](https://sourcerer.io/leafarcoder)
+
+---
 
 # Index
 * [Overview](#overview)
