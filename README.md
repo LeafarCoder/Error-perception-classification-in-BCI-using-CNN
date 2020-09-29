@@ -37,11 +37,14 @@ To get started follow this steps:
 1. Download the [notebook](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/BCI_Feedback_Classifier.ipynb) and upload it into a [Google Drive](https://drive.google.com/).
 2. In the Google Drive create a new folder to be the root directory of all the datasets, models and necessary resources for the project (as an example let's call this folder *BCI_root*).
 3. Access [Google Colab](https://colab.research.google.com/) and login with the same Google account used for Google Drive.
-  * Open a notebook (File > Open notebook OR Ctrl+O) and choose the BCI_Feedback_Classifier.ipynb notebook.
-  * On the left Summary menu (if you can't see it select View > Summary) go to **1.4 Define project directories**.
-  * Define ```running_online ``` as ```True``` (if it is not already).
-  * Define ```project_root_folder``` as the root directory in your Google Drive as defined before with the prefix ```/content/drive/My Drive/``` (following the example set above this would be ```project_root_folder = "/content/drive/My Drive/BCI_root/"```).
-   
+   3.1. Open a notebook (File > Open notebook OR Ctrl+O) and choose the BCI_Feedback_Classifier.ipynb notebook.
+   3.2. On the left Summary menu (if you can't see it select View > Summary) go to *1.4 Define project directories*.
+   3.3. Define ```running_online ``` as ```True``` (if it is not already).
+   3.4. Define ```project_root_folder``` as the root directory in your Google Drive as defined before with the prefix ```/content/drive/My Drive/``` (following the example set above this would be ```project_root_folder = "/content/drive/My Drive/BCI_root/"```).
+4. In the Google Drive, inside the root folder (*/BCI_root* in our example) add 3 folders: *Datasets/* (to keep the raw and pre-processed datasets), *Models/* (to keep the CNN models), and *Images/* (optional; to keep images of pre-processed data or others needed).
+   * Read the commented section in *1.4 Define project directories* to complete and better understand the tree structure of the directory.
+   * The directory structure can be changed keeping the rest of the code intact by altering the references to the folders in the end of section *1.4 Define project directories*.
+
 Open the notebook that was uploaded into the Google Drive with .
 https://colab.research.google.com/notebooks/intro.ipynb
 
