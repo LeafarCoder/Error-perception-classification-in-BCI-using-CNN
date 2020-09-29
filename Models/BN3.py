@@ -21,7 +21,7 @@ class Net(pl.LightningModule):
     # Model key points
     key_points =   """
     <p>This model is taken from the paper:<br>
-    <i>R. Manor and A. B. Geva, “Convolutional neural network for multi-category rapid serial visual presentation BCI,” Front. Comput. Neurosci., vol. 9, no. DEC, pp. 1–12, 2015</i></p>
+    <i>M. Liu, W. Wu, Z. Gu, Z. Yu, F. F. Qi, and Y. Li, “Deep learning based on Batch Normalization for P300 signal detection,” Neurocomputing, vol. 275, pp. 288–297, 2017.</i></p>
     
     <p>It defines a 6 layers CNN architecture.</p>
     """
