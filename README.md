@@ -1,7 +1,7 @@
 # BCI-Feedback-Classification-using-CNN
 Master thesis by Rafael Correia (2020)
 
-[](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/ErrP_to_improve_BCI.PNG)
+![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/ErrP_to_improve_BCI.PNG)
 
 Taken from 
 
