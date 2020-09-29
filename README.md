@@ -10,7 +10,7 @@ More about me:
 
 ---
 
-# Index
+# Contents
 * [Overview](#overview)
 * [Initial setup](#initial-setup)
 * [Run experiments](#run-experiments)
