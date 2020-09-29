@@ -44,12 +44,31 @@ To get started follow this steps:
 4. In the Google Drive, inside the root folder (*/BCI_root* in our example) add 3 folders: *Datasets/* (to keep the raw and pre-processed datasets), *Models/* (to keep the CNN models), and *Images/* (optional; to keep images of pre-processed data or others needed).
    * Read the commented section in *1.4 Define project directories* to complete and better understand the tree structure of the directory.
    * The directory structure can be changed keeping the rest of the code intact by altering the references to the folders in the end of section *1.4 Define project directories*.
+5. Inside */BCI_root/Datasets/* add as many folders as the different datasets you want to have with the proper naming for the dataset such as */BCI_root/Datasets/Dataset_1/*
+   * Inside each dataset create 2 other folders: *all/* to place all the raw ".csv" files and *Datasets_pickle_files/* where all the pre-processing intermediate steps will be stored.
+   * Finally, inside *Datasets_pickle_files/* add as many folders as the different levels of processing you intend to perform. This thesis uses 4: *Raw/*, *Pre-processed/*, *Epoched/* and *Balanced/*.
 
-Open the notebook that was uploaded into the Google Drive with .
-https://colab.research.google.com/notebooks/intro.ipynb
+Concerning the dataset used for training, you can use your own or the one used in this thesis.
+
+### Monitoring error-related potentials
+The dataset used in this thesis is in this [page](http://bnci-horizon-2020.eu/database/data-sets) under the name *Monitoring error-related potentials (013-2015)*. The header *Data* is followed by 12 files (6 subjects with 2 sessions each).
+
+1. Download all the 12 files locally.
+2. Run this [Matlab file]() to convert the files from Matlab variable file (.mat extension) to Comma Separated Values file (.csv extension).
+   * Be careful to change the load and save directories inside the Matlab function.
+   * After the program runs, you should have one files called *AllLabels.csv* and 120 other .csv files (10 runs for each subject and session) named with the format "Subject<sub>_s<sess>_run<r>.csv".
+3. Copy these files to the Google Drive
+   * Place *AllLabels.csv* in the folder *BCI_root/Datasets/Monitoring_error-related_potentials_2015/*
+   * Place all the other 120 files in the folder *BCI_root/Datasets/Monitoring_error-related_potentials_2015/all/* ("all" just refers to the fact that both test and train example are present in the dataset).
+
+### New dataset
+
+To use a new dataset some substantial change might be needed, depending on the format of the original data. To minimize altering the code downstream, try to keep the changes before the dataset processing step, forcing the dataset to have the datatype required by the following steps.
 
 
 ## Offline mode (desktop)
+
+Same steps as in [Online mode](#online-mode) but without the need of using Google Drive. Just store all the files locally in your machine (with the same structure as presented above).
 
 ---
 
