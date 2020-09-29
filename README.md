@@ -275,13 +275,7 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * [ConvArch2 (only BatchNorm applied)](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch2_BN.py)
    * [ConvArch2 (only Dropout applied)](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch2_Dropout.py)
    
-
-
-add sections with each of the models (CCNN, CNN-R, BN3, ...) with:
-- Original paper
-- Original purpose (P300, ErrP)
-- How it was modified to ajust to the ErrP or database needs (ex: changing the kernel sizes and input sizes)
-- Add images of the models with my abstract approach
+---
 
 # Results in Comet ML
 
