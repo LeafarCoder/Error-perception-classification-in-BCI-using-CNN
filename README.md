@@ -196,6 +196,15 @@ This section uses [PyTorch Lightning](https://github.com/PyTorchLightning/pytorc
 
 Access the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/tree/master/Models).
 
+## CCNN
+
+## CNN-R
+
+
+## BN3
+
+
+
 add sections with each of the models (CCNN, CNN-R, BN3, ...) with:
 - Original paper
 - Original purpose (P300, ErrP)
@@ -203,6 +212,32 @@ add sections with each of the models (CCNN, CNN-R, BN3, ...) with:
 - Add images of the models with my abstract approach
 
 # Results in Comet ML
+
+Accessing [Comet ML](https://www.comet.ml/) allows the visualization of the training process and the performance metrics defined for the CNN models.
+
+This image shows the loss and accuracy of the validation set during training:
+
+![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/comet_1.JPG)
+
+Comet has multiple tabs for each experiment that allows to organize the information from the experiment in a very nice way. These tabs are:
+
+* Charts
+* Panels
+* Code
+* Hyper Parameters
+* Metrics
+* Graph Definition
+* Output
+* System Metrics
+* Installed Packages
+* Notes
+* Graphics
+* Audio
+* Text
+* Confusion Matrices
+* Other
+* HTML
+* Assets
 
 
 ---
