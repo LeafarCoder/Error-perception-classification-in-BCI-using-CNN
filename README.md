@@ -3,6 +3,7 @@ Master thesis by Rafael Correia (2020)
 
 # Index
 * [Overview](#overview)
+* [Initial setup](#initial-setup)
 * [Run experiments](#run-experiments)
   - [Setup](#setup)
   - [Process dataset](#process-dataset)
@@ -21,14 +22,34 @@ CNNs are widely known in the image classification domain but they can also be us
 
 The input given to the CNN for the classification is the EEG portion just after a feedback is presented. This can be the confirmation of a choice, the actual performance of an action or some other form of feedback. If the feedback is not the one expected (the performed action is different from the one intended, for example) then an Event-related potential (ERP) is elicited in the brain. Many different ERPs exist in response to different stimulus. The ERP specific for erroneous feedback is called Error Potential (ErrP) and happens around 300ms after the feedback is presented. Hence, givin the EEG signal just after the feedback to the CNN model, it is its task to classify it as presenting a ErrP or not.
 
-Having this information in real time, i.e., knowing if the user realized an error in the system, allows the correction of the action or the improvement of the model controling thr BCI as depicted in the image below.
+Having this information in real time, i.e., knowing if the user realized an error in the system, allows the correction of the action or the improvement of the model controling thr BCI as depicted in the image below (taken from [here](https://www.frontiersin.org/articles/10.3389/fnins.2014.00208/full)).
+
 
 ![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/ErrP_to_improve_BCI.PNG)
 
-Image taken from [here](https://www.frontiersin.org/articles/10.3389/fnins.2014.00208/full).
+---
+# Initial setup
 
+## Online mode
+
+To get started follow this steps:
+
+1. Download the [notebook](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/BCI_Feedback_Classifier.ipynb) and upload it into a [Google Drive](https://drive.google.com/).
+2. Create the directory...
+3. Access [Google Colab](https://colab.research.google.com/) and login with the same Google account used for Google Drive.
+   * Open a notebook (File > Open notebook OR Ctrl+O) and choose the BCI_Feedback_Classifier.ipynb notebook.
+   * On the left Summary menu (if you can't see it select View > Summary) select **1.4 Define project directories**.
+   * Define ```running_online ``` as ```True``` (if it is not already).
+   * Define ```project_root_folder``` as the root directory in your Google Drive as defined in step **2.**.
+   
+Open the notebook that was uploaded into the Google Drive with .
+https://colab.research.google.com/notebooks/intro.ipynb
+
+
+## Offline mode (desktop)
 
 ---
+
 # Run experiments
 
 The whole notebook document is organized in three main sections:
@@ -41,7 +62,7 @@ The whole notebook document is organized in three main sections:
 
 In this section, the whole setup for the rest of the pre-processing and modeling is made.
 
-First run *Necessary installs* to install all the required libraries to the Python environment in the remote Google Colab computer. Python will install the most recent updates on each package. If you notice one or more libraries are not interacting well with the rest then try downgrading the version by changing the code in *Necessary installs* to
+First run *Necessary installs* to install all the required libraries to the Python environment in the remote Google Colab computer. Python will install the most recent updates on each package. If you notice one or more libraries are not interacting well with the rest then try downgrading the version by changing the code in *Necessary installs* like so:
 ```bash
 pip install <library_name>==<version>
 ```
