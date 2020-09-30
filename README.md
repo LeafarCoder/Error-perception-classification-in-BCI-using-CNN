@@ -64,8 +64,8 @@ The dataset used in this thesis is in this [page](http://bnci-horizon-2020.eu/da
 
 1. Download all the 12 files locally.
 2. Run this [Matlab file]() to convert the files from Matlab variable file (.mat extension) to Comma Separated Values file (.csv extension).
-   * Be careful to change the load and save directories inside the Matlab function.
-   * After the program runs, you should have one files called *AllLabels.csv* and 120 other .csv files (10 runs for each subject and session) named with the format "Subject<sub>_s<sess>_run<r>.csv".
+   * Change the load and save directories inside the Matlab function as necessary.
+   * After the program runs, you should have one files called *AllLabels.csv* and 120 other .csv files (10 runs for each subject and session) named with the format "Subject\<sub\>\_s\<sess\>\_run\<r\>.csv".
 3. Copy these files to the Google Drive
    * Place *AllLabels.csv* in the folder *BCI_root/Datasets/Monitoring_error-related_potentials_2015/*
    * Place all the other 120 files in the folder *BCI_root/Datasets/Monitoring_error-related_potentials_2015/all/* ("all" just refers to the fact that both test and train example are present in the dataset).
