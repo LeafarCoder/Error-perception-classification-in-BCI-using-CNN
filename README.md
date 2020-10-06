@@ -40,7 +40,9 @@ Having this information in real time, i.e., knowing if the user realized an erro
 # Initial setup
 
 ## Online mode
-
+<details>
+  <summary>Click to expand!</summary>
+  
 To get started follow this steps:
 
 1. Download the [notebook](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/BCI_Feedback_Classifier.ipynb) and upload it into a [Google Drive](https://drive.google.com/).
@@ -74,10 +76,16 @@ The dataset used in this thesis is in this [page](http://bnci-horizon-2020.eu/da
 
 To use a new dataset some substantial change might be needed, depending on the format of the original data. To minimize altering the code downstream, try to keep the changes before the dataset processing step, forcing the dataset to have the datatype required by the following steps.
 
+</details>
 
 ## Offline mode (desktop)
 
+<details>
+  <summary>Click to expand!</summary>
+  
 Same steps as in [Online mode](#online-mode) but without the need of using Google Drive. Just store all the files locally in your machine (with the same structure as presented above).
+
+</details>
 
 ---
 
