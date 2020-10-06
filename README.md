@@ -309,8 +309,11 @@ This image shows the loss and accuracy of the validation set during training:
 
 ![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/comet_1.JPG)
 
-Comet has multiple tabs for each experiment that allows to organize the information from the experiment in a very nice way. These tabs are:
+Comet has multiple tabs for each experiment that allows to organize the information from the experiment in a very nice way.
 
+<details>
+  <summary>Click to see all tabs in Comet!</summary>
+  
 * Charts
 * Panels
 * Code
@@ -329,6 +332,7 @@ Comet has multiple tabs for each experiment that allows to organize the informat
 * HTML
 * Assets
 
+</details>
 
 ---
 
