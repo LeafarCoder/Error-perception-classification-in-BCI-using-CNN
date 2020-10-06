@@ -149,6 +149,9 @@ In *Data inspection*, the user can verify the quality of the processed dataset b
 
 ### Data structure
 
+<details>
+  <summary>Click to expand!</summary>
+  
 All files are stored as Pickle files with the following datastructures and types:
 
 The data is stored as *numpy.ndarray* with the following structure:
@@ -180,6 +183,10 @@ The data is stored as *numpy.ndarray* with the following structure:
     - *fb_windowSizeSamples*: Size of epoching window in given number of time samples
     
 * balanced_metadata:
+
+</details>
+
+---
 
 ## Deep Learning Model
 
