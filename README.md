@@ -1,4 +1,4 @@
-# BCI Feedback Classification using CNN
+# Error perception classification in BCI using CNN
 
 Master thesis by Rafael Correia (2020)
 
