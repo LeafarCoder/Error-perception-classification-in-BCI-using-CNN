@@ -220,6 +220,16 @@ This section uses [PyTorch Lightning](https://github.com/PyTorchLightning/pytorc
 
 Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/tree/master/Models).
 
+| Author(s) (Year) | Model name | Target ERP | Original paper | PyTorch (Lightning) model |
+|---------------|------------|------------|:------------:|:--------------------:|
+| Cecotti *et al.* (2011) | CCNN | P300 | [Paper](https://pubmed.ncbi.nlm.nih.gov/20567055/) | [CCNN](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CCNN.py) |
+| Manor *et al.* (2015) | CNN-R | P300 | [Paper](http://journal.frontiersin.org/Article/10.3389/fncom.2015.00146/abstract) | [CNN-R](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CCN-R.py) |
+| Liu *et al.*(2017) | BN3 | P300 | [Paper](https://doi.org/10.1016/j.neucom.2017.08.039) | [BN3](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/BN3.py) |
+| Shan *et al.*(2018) | OCLNN | P300 | [Paper](https://www.ijcai.org/proceedings/2018/222) | [OCLNN](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/OCLNN.py) |
+| Luo *et al.*(2018) | CNN-L | ErrP | [Paper](https://ieeexplore.ieee.org/document/8621183/) | [CNN-L](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CNN-Luo.py) |
+| Torres *et al.*(2018) | ConvNet | ErrP | [Paper](https://ieeexplore.ieee.org/document/8512183/) | [ConvNet](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvNet.py) |
+| Bellary *et al.*(2019) | ConvArch | ErrP | [Paper](https://ieeexplore.ieee.org/document/8776901/) | [ConvArch1](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch1.py)<br/>[ConvArch1_Adam](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch1_Adam.py)<br/>[ConvArch2](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch2.py)<br/>[ConvArch2_BN](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch2_BN.py)<br/>[ConvArch2_Dropout](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch2_Dropout.py) |
+
 ## CCNN
 
 * Original [paper](https://pubmed.ncbi.nlm.nih.gov/20567055/)
@@ -233,7 +243,7 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
 ## CNN-R
 
 * Original [paper](http://journal.frontiersin.org/Article/10.3389/fncom.2015.00146/abstract)
-   *M. Liu, W. Wu, Z. Gu, Z. Yu, F. F. Qi, and Y. Li, “Deep learning based on Batch Normalization for P300 signal detection,” Neurocomputing, vol. 275, pp. 288–297, **2017**.
+   *R. Manor and A. B. Geva, “Convolutional Neural Network for Multi-Category Rapid Serial Visual Presentation BCI,” Front. Comput. Neurosci., vol. 9, no. DEC, pp. 1–12, Dec. **2015**.
 * Target ERP
    * **P300**
 * Modifications
@@ -261,7 +271,7 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/OCLNN.py).
 
 
-## CNN-Luo
+## CNN-L
 
 * Original [paper](https://ieeexplore.ieee.org/document/8621183/)
    * T. Luo, Y. Fan, J. Lv, and C. Zhou, “Deep reinforcement learning from error-related potentials via an EEG-based brain-computer interface,” in 2018 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), **2018**, pp. 697–701.
