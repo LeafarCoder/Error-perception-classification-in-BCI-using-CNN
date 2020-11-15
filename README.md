@@ -19,7 +19,7 @@ More about me:
   - [Deep Learning Model](#deep-learning-model)
 * [CNN Models](#cnn-models)
 * [Results in Comet ML](#results-in-comet-ml)
-* [License](#license)
+* [Licence](#licence)
 * [BibTeX](#bibtex)
 
 ---
@@ -348,7 +348,7 @@ Comet has multiple tabs for each experiment that allows to organize the informat
 
 # Licence
 
-Repository under [MIT license](https://github.com/LeafarCoder/Error-perception-classification-in-BCI-using-CNN/blob/master/LICENSE).
+Repository under [MIT licence](https://github.com/LeafarCoder/Error-perception-classification-in-BCI-using-CNN/blob/master/LICENSE).
 
 # BibTeX
 If you want to cite the repository feel free to use this:
