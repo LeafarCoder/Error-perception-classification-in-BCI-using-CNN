@@ -346,7 +346,7 @@ If you want to cite the repository feel free to use this:
 ```bibtex
 @mastersthesis{correia2020,
   author       = {Correia, JR}, 
-  title        = {Feedback classification in Brain-Computer interfaces using Convolutional Neural Networks},
+  title        = {Error perception classification in Brain-Computer interfaces using Convolutional Neural Networks},
   school       = {Instituto Superior Tecnico},
   year         = {2020},
 }
