@@ -240,8 +240,6 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CCNN.py).
 
-<img src="https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/CCNN_architecture.PNG" height="200">
-
 ## CNN-R
 
 * Original [paper](http://journal.frontiersin.org/Article/10.3389/fncom.2015.00146/abstract)
@@ -251,9 +249,6 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
 * Modifications
    * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CCN-R.py).
-
-<img src="https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/cnn-r_model.PNG" height="200">
-
 
 ## BN3
 
