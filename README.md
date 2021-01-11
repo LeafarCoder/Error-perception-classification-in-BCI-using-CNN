@@ -239,7 +239,9 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
 * Modifications
    * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CCNN.py).
-   
+
+![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/CCNN_architecture.PNG)
+
 ## CNN-R
 
 * Original [paper](http://journal.frontiersin.org/Article/10.3389/fncom.2015.00146/abstract)
@@ -249,6 +251,9 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
 * Modifications
    * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CCN-R.py).
+
+![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/cnn-r_model.PNG)
+
 
 ## BN3
 
@@ -281,6 +286,7 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CNN-Luo.py).
 
+![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/_CNN-L_model.png)
 
 ## ConvNet
 
@@ -292,7 +298,7 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvNet.py).
 
-
+![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/_ConvNet_model.png)
 
 ## ConvArch
 
@@ -308,7 +314,9 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * [ConvArch2](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch2.py)
    * [ConvArch2 (only BatchNorm applied)](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch2_BN.py)
    * [ConvArch2 (only Dropout applied)](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch2_Dropout.py)
-   
+
+![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/_ConvArch_model.png)
+
 ---
 
 # Results in Comet ML
