@@ -240,7 +240,7 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CCNN.py).
 
-![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/CCNN_architecture.PNG)
+<img src="https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/CCNN_architecture.PNG" height="200">
 
 ## CNN-R
 
@@ -252,7 +252,7 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CCN-R.py).
 
-![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/cnn-r_model.PNG)
+<img src="https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/cnn-r_model.PNG" height="200">
 
 
 ## BN3
@@ -275,7 +275,6 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/OCLNN.py).
 
-
 ## CNN-L
 
 * Original [paper](https://ieeexplore.ieee.org/document/8621183/)
@@ -286,7 +285,7 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CNN-Luo.py).
 
-![](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/_CNN-L_model.png)
+<img src="https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/_CNN-L_model.png" height="200">
 
 ## ConvNet
 
@@ -298,7 +297,7 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvNet.py).
 
-<img src="https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/_ConvNet_model.png" height="250">
+<img src="https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/_ConvNet_model.png" height="200">
 
 ## ConvArch
 
@@ -315,7 +314,7 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * [ConvArch2 (only BatchNorm applied)](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch2_BN.py)
    * [ConvArch2 (only Dropout applied)](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch2_Dropout.py)
 
-<img src="https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/_ConvArch_model.png" height="250">
+<img src="https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/_ConvArch_model.png" height="200">
 
 ---
 
