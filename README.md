@@ -1,4 +1,4 @@
-# Error perception classification in BCI using CNN
+# Error perception classification in Brain-Computer Interfaces using CNN
 
 Master thesis by Rafael Correia (2020)
 
