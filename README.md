@@ -25,7 +25,7 @@ More about me:
 ---
 # Overview
 
-The goal of this thesis is to classify the occurance of a feedback error, i.e., the perception of an error by a user interacting with a BCI (Brain-Computer Interface). The approach taken is to develop a Convolutional Neural Network (CNN) model.
+The goal of this thesis is to classify the occurrence of a feedback error, i.e., the perception of an error by a user interacting with a BCI (Brain-Computer Interface). The approach taken is to develop a Convolutional Neural Network (CNN) model.
 
 CNNs are widely known in the image classification domain but they can also be used to classify other types of information such as Electroencephalography (EEG) which can be regarded as 2D data, if the spatial position of each channel is considered, or 1D data otherwise in which case each channel of the EEG gives a time-series signal and is considered individually.
 
