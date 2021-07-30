@@ -243,7 +243,7 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
 ## CNN-R
 
 * Original [paper](http://journal.frontiersin.org/Article/10.3389/fncom.2015.00146/abstract)
-   *R. Manor and A. B. Geva, “Convolutional Neural Network for Multi-Category Rapid Serial Visual Presentation BCI,” Front. Comput. Neurosci., vol. 9, no. DEC, pp. 1–12, Dec. **2015**.
+   * R. Manor and A. B. Geva, “Convolutional Neural Network for Multi-Category Rapid Serial Visual Presentation BCI,” Front. Comput. Neurosci., vol. 9, no. DEC, pp. 1–12, Dec. **2015**.
 * Target ERP
    * **P300**
 * Modifications
