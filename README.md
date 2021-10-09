@@ -236,8 +236,6 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * H. Cecotti and A. Gräser, “Convolutional neural networks for P300 detection with application to brain-computer interfaces,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 33, no. 3, pp. 433–445, **2011**.
 * Target ERP
    * **P300**
-* Modifications
-   * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CCNN.py).
 
 ## CNN-R
@@ -246,8 +244,6 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * R. Manor and A. B. Geva, “Convolutional Neural Network for Multi-Category Rapid Serial Visual Presentation BCI,” Front. Comput. Neurosci., vol. 9, no. DEC, pp. 1–12, Dec. **2015**.
 * Target ERP
    * **P300**
-* Modifications
-   * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CCN-R.py).
 
 ## BN3
@@ -256,8 +252,6 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * M. Liu, W. Wu, Z. Gu, Z. Yu, F. F. Qi, and Y. Li, “Deep learning based on Batch Normalization for P300 signal detection,” Neurocomputing, vol. 275, pp. 288–297, **2017**.
 * Target ERP
    * **P300**
-* Modifications
-   * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/BN3.py).
 
 ## OCLNN
@@ -266,8 +260,6 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * H. Shan, Y. Liu, and T. Stefanov, “A simple convolutional neural network for accurate P300 detection and character spelling in brain computer interface,” IJCAI Int. Jt. Conf. Artif. Intell., pp. 1604–1610, **2018**.
 * Target ERP
    * **P300**
-* Modifications
-   * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/OCLNN.py).
 
 ## CNN-L
@@ -276,8 +268,6 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * T. Luo, Y. Fan, J. Lv, and C. Zhou, “Deep reinforcement learning from error-related potentials via an EEG-based brain-computer interface,” in 2018 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), **2018**, pp. 697–701.
 * Target ERP
    * **ErrP**
-* Modifications
-   * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/CNN-Luo.py).
 
 <img src="https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/_CNN-L_model.png" height="200">
@@ -288,8 +278,6 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * J. M. M. Torres, T. Clarkson, E. A. Stepanov, C. C. Luhmann, M. D. Lerner, and G. Riccardi, “Enhanced Error Decoding from Error-Related Potentials using Convolutional Neural Networks,” Proc. Annu. Int. Conf. IEEE Eng. Med. Biol. Soc. EMBS, vol. 2018-July, pp. 360–363, **2018**.
 * Target ERP
    * **ErrP**
-* Modifications
-   * ...
 * PyTorch [model](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvNet.py).
 
 <img src="https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/readme_img/_ConvNet_model.png" height="200">
@@ -300,8 +288,6 @@ Access all the models [here](https://github.com/LeafarCoder/BCI-Feedback-Classif
    * S. A. Swamy Bellary and J. M. Conrad, “Classification of Error Related Potentials using Convolutional Neural Networks,” in 2019 9th International Conference on Cloud Computing, Data Science & Engineering (Confluence), **2019**, pp. 245–249.
 * Target ERP
    * **ErrP**
-* Modifications
-   * ...
 * PyTorch models
    * [ConvArch1](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch1.py)
    * [ConvArch1 (using Adam instead of SGD)](https://github.com/LeafarCoder/BCI-Feedback-Classification-using-CNN/blob/master/Models/ConvArch1_Adam.py)
